@@ -1,0 +1,27 @@
+.full-container-list-auction{
+    margin-bottom: 88px;
+    margin-top: 50px;
+}
+
+.full-container-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-container-of-items{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px;
+}
+
+.container-of-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: aquamarine;
+}

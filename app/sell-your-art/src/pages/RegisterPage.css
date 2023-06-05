@@ -1,0 +1,14 @@
+.inputRp{
+    padding: 8px;
+    border-radius: 4px 24px;
+}
+
+.buttonsRp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 12px;
+    gap: 12px;
+    padding: 16px;
+}
