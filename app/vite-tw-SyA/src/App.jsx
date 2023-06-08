@@ -20,11 +20,11 @@ function App() {
 
 
   return (
-    <div className='bg-gray-400'>
+    <div className='h-screen bg-gray-500'>
       
       <Routes>
         <Route path='/login' element={ <LoginPage onLoginClick={handleNavigateToHome}/> } /> 
-        <Route path='register' element={ <RegisterPage/> } />
+        <Route path='/register' element={ <RegisterPage/> } />
         <Route path='/*' element={ <HomePage onLogoutClick={handleLogoutClick}/> } />
       </Routes>
 

@@ -3,10 +3,10 @@ import FakeData from '../testData/data'
 function AuctionList() {
 
   return (
-    <div className='mt-4 md:mt-6 lg:mt-8'>
+    <div className='my-px-4 md:mt-6 lg:mt-8'>
       <ul className='grid grid-cols-1 md:grid-cols-2 gap-4'>
         {FakeData.map((auction) => (
-          <li className='bg-gray-300 items-start p-4 flex flex-col justify-center border-double border-4 border-black gap-4 '>
+          <li className='bg-gray-300  items-start p-4 flex flex-col justify-center rounded  gap-4 '>
 
             <div>
               <img src={auction.img} alt="" className='mx-auto w-full h-auto' />

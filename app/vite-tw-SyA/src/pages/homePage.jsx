@@ -18,7 +18,7 @@ function homePage( { onLogoutClick } ) {
   // }
 
     return (
-      <div className=" flex flex-col min-h-screen">
+      <div className=" flex flex-col h-screen">
         <header className="fixed top-0 inset-x-0 z-50">
         <Navbar 
         onLogoutClick={onLogoutClick}
