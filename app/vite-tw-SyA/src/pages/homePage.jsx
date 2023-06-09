@@ -30,7 +30,7 @@ function homePage( { onLogoutClick } ) {
         </header>
 
 
-        <main className="flex-grow overflow-y-auto mx-auto px-3 my-16">
+        <main className="flex-grow w-full overflow-y-auto mx-auto px-3 my-16">
          <Routes>
           <Route path="/settings" element={ <Settings/> } />
           <Route path="/messages" element={ <Messages/> } />

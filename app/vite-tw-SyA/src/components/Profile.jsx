@@ -1,20 +1,22 @@
 function Profile () {
 
   return(
-    <form className="space-y-2" action="#" method="POST">
-           
+    <form className=" flex justify-center" action="#" method="POST">
+      <div className="w-1/5 mt-20 space-y-4">
+           <h3 className="text-center text-white text-xl">¡  Cambie los datos de su Pefil!</h3>
             <div>
-              <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
-                Email address
+              <label htmlFor="Phonenumber" className="block text-sm font-medium leading-6 text-gray-900">
+                Phonenumber
               </label>
               <div className="mt-0">
                 <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
+                  id="Phonenumber"
+                  name="Phonenumber"
+                  type="number"
+                  autoComplete="Phonenumber"
                   required
-                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className=" px-2 block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  placeholder="+12 345 678"
                 />
               </div>
             </div>
@@ -30,7 +32,7 @@ function Profile () {
                   type="city"
                   autoComplete="city"
                   required
-                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="px-2 block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -49,7 +51,7 @@ function Profile () {
                   type="about"
                   autoComplete="current-about"
                   required
-                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="px-2 block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -61,6 +63,7 @@ function Profile () {
               >
                 Sign in
               </button>
+            </div>
             </div>
           </form>
   )

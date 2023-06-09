@@ -20,7 +20,7 @@ function App() {
 
 
   return (
-    <div className='h-screen bg-gray-500'>
+    <div className='h-screen bg-sky-900'>
       
       <Routes>
         <Route path='/login' element={ <LoginPage onLoginClick={handleNavigateToHome}/> } /> 
