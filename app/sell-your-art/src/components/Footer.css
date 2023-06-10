@@ -1,44 +1,16 @@
-.button-header{
-    padding: 8px;
-}
-
-
-/* SIDEBAR Open */
-/* .isOpenActive{
-    background-color: antiquewhite;
-    width: 243px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 8px;
-} */
-
-/* .listContainerOpenMenu{
+.Menu{
+    height: 64px;
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
 }
 
+.nav-Container{
+    width: 100%;
+}
 .menu-header-items{
-    width: 100%;
-    height: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: space-evenly;
-} */
-
-/* SIDEBAR Close */
-/* .isCloseActive {
-    background-color: antiquewhite;
-    width: 88px;
-    height: 100vh;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 8px;
-} */
+
+}

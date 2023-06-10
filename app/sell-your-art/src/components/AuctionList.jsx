@@ -8,24 +8,20 @@ function AuctionList() {
         <div className="full-container-list-auction" >
             <div className="content-container">
 
-            <div className="full-container-search">
-                <label htmlFor="search">Buscador</label>
-                <input type="text" placeholder="..." />
-            </div>
-
             <div className="full-container-render-auction">
-                <ul className='full-container-of-items'>
+                {/* <ul className='full-container-of-items'>
                     {testData.map((auction) => (
                         <li className='container-of-items'>
                             <h3> {auction.author} </h3>
                             <h1> {auction.title} </h1>
                             <p> {auction.description} </p>
-                            <img src={auction.img} alt="" />
+                            <img  src={auction.img} alt="" style={{ width: '600px', height: 'auto' }} />
                             <p> {auction.value} </p>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
             </div>
+
         </div>
     </div>
     )

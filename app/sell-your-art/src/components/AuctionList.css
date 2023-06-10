@@ -3,19 +3,10 @@
     margin-top: 50px;
 }
 
-.full-container-search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .full-container-of-items{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
-    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
 }
 
 .container-of-items{
@@ -24,4 +15,8 @@
     align-items: center;
     justify-content: center;
     background: aquamarine;
+}
+
+.full-container-render-auction{
+    padding: 24px 12px;
 }
