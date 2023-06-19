@@ -1,9 +1,8 @@
 import { Routes, Route, useNavigate } from 'react-router-dom'
+
 import LoginPage from './pages/loginPage'
 import HomePage from './pages/homePage'
 import RegisterPage from './pages/registerPage'
-
-
 
 import './App.css'
 
@@ -23,7 +22,7 @@ function App() {
     <div className='h-screen bg-sky-900'>
       
       <Routes>
-        <Route path='/login' element={ <LoginPage onLoginClick={handleNavigateToHome}/> } /> 
+        <Route path='/login' element={ <LoginPage /> } /> 
         <Route path='/register' element={ <RegisterPage/> } />
         <Route path='/*' element={ <HomePage onLogoutClick={handleLogoutClick}/> } />
       </Routes>
