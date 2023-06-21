@@ -52,23 +52,23 @@ export default function RegisterPage() {
                 />
               </div>
             </div>
-            
+
             <div>
-              <label htmlFor="birth" className="block text-sm font-medium leading-6 text-gray-900">
-                Your birth
+              <label htmlFor="lastname" className="block text-sm font-medium leading-6 text-gray-900">
+                last name
               </label>
               <div className="mt-0">
                 <input
-                  id="birth"
-                  name="birth"
-                  type="birth"
-                  autoComplete="birth"
+                  id="lastname"
+                  name="lastname"
+                  type="lastname"
+                  autoComplete="lastname"
                   required
                   className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
-
+            
             <div>
               <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                 Email address
@@ -79,22 +79,6 @@ export default function RegisterPage() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  required
-                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="phonenumber" className="block text-sm font-medium leading-6 text-gray-900">
-                Your Phonenumber
-              </label>
-              <div className="mt-0">
-                <input
-                  id="phonenumber"
-                  name="phonenumber"
-                  type="phonenumber"
-                  autoComplete="phonenumber"
                   required
                   className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -114,6 +98,38 @@ export default function RegisterPage() {
                   name="password"
                   type="password"
                   autoComplete="current-password"
+                  required
+                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="birth" className="block text-sm font-medium leading-6 text-gray-900">
+                Your birth
+              </label>
+              <div className="mt-0">
+                <input
+                  id="birth"
+                  name="birth"
+                  type="birth"
+                  autoComplete="birth"
+                  required
+                  className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="phonenumber" className="block text-sm font-medium leading-6 text-gray-900">
+                Your Phonenumber
+              </label>
+              <div className="mt-0">
+                <input
+                  id="phonenumber"
+                  name="phonenumber"
+                  type="phonenumber"
+                  autoComplete="phonenumber"
                   required
                   className="block w-full rounded-md border-0 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
