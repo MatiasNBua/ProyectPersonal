@@ -1,5 +1,5 @@
 module.exports = {
-    registerUser : require('./registerUser'),
+    createUser : require('./createUser'),
     // authenticateUser : require('./authenticateUser'),
     // retrieveUser : require('./retrieveUser'),
     // updateUserPassword : require('./updateUserPassword'),
